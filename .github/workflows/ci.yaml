@@ -81,4 +81,4 @@ jobs:
       uses: docker/build-push-action@v5
       with:
         push: true
-        tags: mbonnafon/tp-cesir:latest
+        tags: mbonnafon/tp-cesi:${{ github.head_ref || 'master' }}
