@@ -15,7 +15,9 @@ terraform {
 }
 
 # Configure the GitHub Provider
-provider "github" {}
+provider "github" {
+    owner = "mbonnafon"
+}
 
 resource "github_repository" "tp_cesi_2024" {
   name        = "tp-cesi-2024"
