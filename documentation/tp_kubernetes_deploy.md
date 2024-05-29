@@ -36,3 +36,4 @@ kubectl argo rollouts dashboard
 
 ## Repository pour tester:
 https://github.com/argoproj/rollouts-demo/tree/master/examples 
+https://argoproj.github.io/argo-rollouts/getting-started/
