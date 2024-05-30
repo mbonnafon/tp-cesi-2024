@@ -12,7 +12,7 @@ func toLower(text string) string {
 
 func userAgentHandler(w http.ResponseWriter, r *http.Request) {
 	userAgent := r.Header.Get("User-Agent")
-	fmt.Fprintf(w, "User-Agent: %s\n", userAgent)
+	fmt.Fprintf(w, "Server listening at port 8080; User-Agent: %s\n", userAgent)
 }
 
 func main() {
